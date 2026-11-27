@@ -29,7 +29,6 @@
 
 **HTML** stands for **HyperText Markup Language**. It is the standard language used to create the **structure and content** of web pages.
 
-Break the name into parts:
 
 | Word | Meaning |
 |------|---------|
@@ -37,7 +36,7 @@ Break the name into parts:
 | **Markup** | Labels (called *tags*) added around content to tell the browser what that content *is*: a heading, a paragraph, an image, a link. |
 | **Language** | A set of rules and keywords the browser understands. |
 
-> ⚠️ **HTML is not a programming language.** It has no logic: no variables, loops or conditions. It only **describes** content. Programming logic comes from JavaScript.
+> ⚠️ **HTML is not a programming language.** It has no logic: no variables, loops or conditions. It only **describes** content. Programming logic comes from JavaScript. It is a static language, means it does not provide interactive features but can be combined with CSS for styling and JavaScript for interactivity.
 
 ### A simple way to think about it
 
@@ -57,6 +56,7 @@ If a web page were a human body:
 Here `<h1>` tells the browser "this is the main heading" and `<p>` says "this is a paragraph". The browser then decides how to display each.
 
 ---
+
 
 ## 2. A Short History
 
@@ -362,7 +362,65 @@ Indent nested elements (2 or 4 spaces). It does not change the output but makes 
 
 ---
 
-## 13. Your First Page
+### 13. HTML Document
+- An HTML document is a text-only file containing Hyper Text Markup Language (HTML) code with a .HTML or .html extension, used to structure and display content, such as text, images, and links, on a webpage.
+- It uses tags enclosed in angle brackets (<>) to provide instructions to a web browser.
+- HTML documents are also called web pages.
+
+### How it works
+```
+You write HTML Code in a text editor  ────▶ You save the file with the .html or .HTML extension ────▶ You open this file in a web browser  ────▶ The browser reads the HTML code, interprets the tags and renders the structured content on the screen.
+
+```
+### A simple HTML Document 
+```
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            My First Webpage
+        </title>
+    </head>
+    <body>
+        <h1> Welcome to my Web page</h1>
+        <p>Glad to see you here</p>
+    </body>
+</html>
+
+Here;
+- <!DOCTYPE HTML> tells version of HTML.
+- <html> </html> is HTML root element.
+- <head> </head> used to contain page HTML metadata.
+- <title> </title> is title of HTML page.
+- <body> </body> Holds the content of HTML.
+- <h1> </h1> is HTML heading tag.
+
+```
+
+### Creating an HTML document
+ <p>Following are the steps to create and HTML document</p>
+ <ol>
+   <li>**Open a Plain Text Editor** : Use a basic text editor such as Notepad, TextEdit or more advanced code editor like VS Code or Sublime Text. Avoid word processors like Microsoft Word, as they can add formatting that interferes with HTML.</li>
+   <li>**Write the HTML Code** : Begin with the fundamental structure of an HTML document.</li>
+   <li>**Save the file** :
+     <ol>
+    <li> Go to "File" > "Save As.." in your text editor.</li>
+   <li>Choose a location to save the file.</li>
+   <li>Enter a file name, for example, index.html or hello.html</li>
+   <li>Ensure the file extension is .html or .HTML</li></li>
+     </ol>
+   <li>**Open in a Web browser** :
+   <ol>
+     <li>Navigate to the location where you saved the HTML Document.</li>
+     <li>Double-click the file. It should open automatically in your default web browser.</li>
+      <li>Alternatively, open your web browser and drag the HTML File directly into the browser window.
+   </ol>
+   </li>
+   
+ </ol>
+
+
+## 14. Your First Page
 
 **Step 1.** Create a folder `my-first-page` and, inside it, a file named `index.html`.
 
@@ -392,7 +450,7 @@ Indent nested elements (2 or 4 spaces). It does not change the output but makes 
 
 ---
 
-## 14. Common Mistakes
+## 15. Common Mistakes
 
 | Mistake | Problem | Fix |
 |---------|---------|-----|
@@ -409,7 +467,7 @@ Indent nested elements (2 or 4 spaces). It does not change the output but makes 
 
 ---
 
-## 15. Quick Summary
+## 16. Quick Summary
 
 - **HTML** = HyperText Markup Language; it describes the **structure and content** of a web page. It is a markup language, not a programming language.
 - **HTML + CSS + JS:** structure + style + behavior.
@@ -424,7 +482,7 @@ Indent nested elements (2 or 4 spaces). It does not change the output but makes 
 
 ---
 
-## 16. Interview Angle
+## 17. Interview Angle
 
 Questions commonly asked from this topic (answers to be covered in `interview-questions.md`):
 
